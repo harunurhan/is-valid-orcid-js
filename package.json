@@ -18,12 +18,12 @@
     "url": "git+ssh://git@github.com/harunurhan/is-valid-orcid-js.git"
   },
   "keywords": [
-    "library",
+    "orcid",
     "typescript",
-    "karma",
-    "jasmine",
-    "starter",
-    "module"
+    "js",
+    "valid",
+    "checksum",
+    "is"
   ],
   "author": "Harun Urhan <harunurhan17@gmail.com> (http://github.com/harunurhan)",
   "license": "MIT",
