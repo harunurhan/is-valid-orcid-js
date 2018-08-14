@@ -11,6 +11,16 @@ describe('isValidOrcid', () => {
     expect(isValidOrcid(value)).toBe(false);
   });
 
+  it('returns false if it is undefined', () => {
+    const value = undefined;
+    expect(isValidOrcid(value)).toBe(false);
+  });
+
+  it('returns false if it is null', () => {
+    const value = null;
+    expect(isValidOrcid(value)).toBe(false);
+  });
+
   it('returns false if invalid orcid', () => {
     const value = '0000-0002-0088-0052';
     expect(isValidOrcid(value)).toBe(false);
