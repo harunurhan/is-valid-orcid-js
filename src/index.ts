@@ -7,7 +7,7 @@ function generateCheckDigit(baseDigits: string[]): string {
 }
 
 export default function isValidOrcid(maybeOrcid: string): boolean {
-  if (maybeOrcid.length < 19) {
+  if (!maybeOrcid || maybeOrcid.length < 19) {
     return false;
   }
 
