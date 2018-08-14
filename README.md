@@ -1,5 +1,7 @@
 ### is-valid-orcid
 
+`yarn add is-valid-orcid` or `npm install --save is-valid-orcid`
+
 ```typescript
 import isValidOrcid from 'is-valid-orcid';
 
