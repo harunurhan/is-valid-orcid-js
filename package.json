@@ -1,6 +1,6 @@
 {
   "name": "is-valid-orcid",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Check if a value is valid ORCID or not",
   "main": "dist/index.js",
   "scripts": {
